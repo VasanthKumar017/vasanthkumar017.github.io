@@ -1130,6 +1130,8 @@ textarea.form-input {
 @media (max-width: 991px) {
   .hero-section {
       height: 40vh; /* Adjust height for smaller screens */
+      background: rgb(176,152,200);
+      background: linear-gradient(238deg, rgba(176,152,200,0.7707457983193278) 0%, rgba(232,232,232,1) 6%);
   }
 }
 
