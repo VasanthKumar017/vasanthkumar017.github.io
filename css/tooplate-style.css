@@ -1032,3 +1032,69 @@ textarea.form-input {
   transform: translateY(0em);
 }
 
+/* 🌟 Service Section Styles */
+.page-service {
+  padding: 60px 0;
+  background: #f8f9fa; /* Light background */
+}
+
+/* 🌟 Service Card Styling */
+.card-service {
+  text-align: center;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  border: none;
+  margin: 20px;
+}
+
+.card-service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 Icon Styling */
+.card-service .icon {
+  font-size: 50px; /* Increased icon size */
+  color: #007bff; /* Bootstrap primary blue */
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-service .icon i {
+  font-size: 50px;
+}
+
+/* 🌟 Service Title */
+.card-service h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* 🌟 Service Description */
+.card-service p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+/* 🌟 Responsive Fixes */
+@media (max-width: 991px) {
+  .card-service {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-service {
+      padding: 20px;
+  }
+}
+
+
