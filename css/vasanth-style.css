@@ -1123,6 +1123,7 @@ textarea.form-input {
 .hero-section .container {
   position: relative;
   z-index: 1;
+  padding-top: 50px;
   color: white;
 }
 
@@ -1130,6 +1131,7 @@ textarea.form-input {
 @media (max-width: 991px) {
   .hero-section {
       height: 40vh; /* Adjust height for smaller screens */
+      padding-top: 0px;
       background: rgb(176,152,200);
       background: linear-gradient(238deg, rgba(176,152,200,0.7707457983193278) 0%, rgba(232,232,232,1) 6%);
   }
