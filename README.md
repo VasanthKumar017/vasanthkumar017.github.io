@@ -60,4 +60,3 @@ I'd love to connect! Feel free to reach out via [iamvasanthkumar0@gmail.com](mai
 ---
 
 Thank you for visiting my portfolio!
-```
